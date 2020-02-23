@@ -1,3 +1,6 @@
+# 环境配置
+pip install -r requirements.txt
+
 # Class VRP
 ## 参数说明
 * distance_matrix 方阵
@@ -18,5 +21,5 @@
     
 class VRP中只做了少数必要的参数校验，前后端务必要做严格且一致的参数校验及报错提示。后端不可寄希望前端的参数都是校验过的。
 
-# class TestVRP
+# Class TestVRP
 运行测试案例后可在自动生成的routing.png查看结果
